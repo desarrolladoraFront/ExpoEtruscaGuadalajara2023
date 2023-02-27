@@ -1,0 +1,119 @@
+body{
+   padding: 0%;
+   margin: 0%;
+   height: 100%;
+   width: 100%;
+   font-family: Poppins;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100vw;
+    height: 15vh;
+    background: transparent;
+    padding: 0%;
+    top: 2%;
+    left: 3%;
+    position: fixed;
+}
+
+#root{
+    position: fixed;
+    top: 12%;
+    left: 7%;
+    padding: 2vh;
+    width: 80%;
+}
+
+.form{
+    border-radius: 3vh;
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.192)
+}
+
+h1,h2{
+    font-weight: 500;
+}
+h4{
+    font-weight: 400;
+    color: antiquewhite;
+}
+button, input {
+    border-radius: 1vh;
+    font-family: poppins;
+    border-width: .5px;
+    font-size: 2vh;
+}
+label, .check{
+    font-size: 2vh;
+}
+#divBtn{
+    width: 50vw;
+    height: 5vh;
+    background-color: #fdc420;
+    border-style: none;
+}
+.divBtn{
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+footer{
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    position: fixed; 
+    background-color: black;
+    color:white;
+    bottom: -.5%;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.divLogosRS{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DEAE1D;
+    width: 100vw;
+    padding: 1;
+
+    position: fixed;
+    bottom: 5%;
+    height: 9%;
+}
+
+.logoRedes{
+    width: 28px;
+}
+#reload{
+    width: 5%;
+    height: 5%;
+}
+
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin:auto;
+    color: #f31212;
+    padding-top: 20px;
+}
+
+.logoAMCCE{
+   width: 35vh;
+   height: 30vh;
+}
+.divFelicidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
