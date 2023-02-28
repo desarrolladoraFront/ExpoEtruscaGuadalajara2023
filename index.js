@@ -3,7 +3,7 @@ const USERS = {};
 //Variable that creates alert messages.
 const WARNINGS_MESSAGE = document.getElementById('warnings');
 const USER_NAME = document.getElementById('name').value;
-const TELEPHONE_NUMBER = document.getElementById('number').value;
+const TELEPHONE_NUMBER = document.getElementById('telephone').value;
 
 
 document.addEventListener("DOMContentLoaded", function(event) {
@@ -58,12 +58,12 @@ function saveName (){
 
 //Check and save telephone number.
 function saveNumber(){
-    const TELEPHONE_NUMBER = document.getElementById('number').value;
+    const TELEPHONE_NUMBER = document.getElementById('telephone').value;
 
     if (TELEPHONE_NUMBER == null || TELEPHONE_NUMBER.length == 0 || /^\s+$/.test(TELEPHONE_NUMBER)){
         WARNINGS_MESSAGE.innerHTML ='Tú número telefónico debe tener 10 digitos.';
             } else {
-                USERS.number = TELEPHONE_NUMBER;
+                USERS.telephone = TELEPHONE_NUMBER;
             }
 }
 
